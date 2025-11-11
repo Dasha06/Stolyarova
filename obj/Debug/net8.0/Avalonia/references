@@ -14,6 +14,7 @@ C:\Users\demo\.nuget\packages\avalonia\11.3.0\ref\net8.0\Avalonia.Metal.dll
 C:\Users\demo\.nuget\packages\avalonia\11.3.0\ref\net8.0\Avalonia.MicroCom.dll
 C:\Users\demo\.nuget\packages\avalonia.native\11.3.0\lib\net8.0\Avalonia.Native.dll
 C:\Users\demo\.nuget\packages\avalonia\11.3.0\ref\net8.0\Avalonia.OpenGL.dll
+C:\Users\demo\.nuget\packages\avalonia.reactiveui\11.0.9\lib\net6.0\Avalonia.ReactiveUI.dll
 C:\Users\demo\.nuget\packages\avalonia.remote.protocol\11.3.0\lib\net8.0\Avalonia.Remote.Protocol.dll
 C:\Users\demo\.nuget\packages\avalonia.skia\11.3.0\lib\net8.0\Avalonia.Skia.dll
 C:\Users\demo\.nuget\packages\avalonia.themes.fluent\11.3.0\lib\net8.0\Avalonia.Themes.Fluent.dll
@@ -22,6 +23,9 @@ C:\Users\demo\.nuget\packages\avalonia\11.3.0\ref\net8.0\Avalonia.Vulkan.dll
 C:\Users\demo\.nuget\packages\avalonia.win32\11.3.0\lib\net8.0\Avalonia.Win32.Automation.dll
 C:\Users\demo\.nuget\packages\avalonia.win32\11.3.0\lib\net8.0\Avalonia.Win32.dll
 C:\Users\demo\.nuget\packages\avalonia.x11\11.3.0\lib\net8.0\Avalonia.X11.dll
+C:\Users\demo\.nuget\packages\captchaforavalonia\1.1.1\lib\net8.0\Captcha.dll
+C:\Users\demo\.nuget\packages\dialoghost.avalonia\0.8.1\lib\netstandard2.0\DialogHost.Avalonia.dll
+C:\Users\demo\.nuget\packages\dynamicdata\7.9.5\lib\net6.0\DynamicData.dll
 C:\Users\demo\.nuget\packages\harfbuzzsharp\7.3.0.3\lib\net6.0\HarfBuzzSharp.dll
 C:\Users\demo\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\Microsoft.CSharp.dll
@@ -41,11 +45,14 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\Micros
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\Microsoft.VisualBasic.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\Microsoft.Win32.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\Microsoft.Win32.Registry.dll
+C:\Users\demo\.nuget\packages\messagebox.avalonia\3.3.0\lib\netstandard2.0\MsBox.Avalonia.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\netstandard.dll
 C:\Users\demo\.nuget\packages\npgsql\9.0.3\lib\net8.0\Npgsql.dll
 C:\Users\demo\.nuget\packages\npgsql.entityframeworkcore.postgresql\9.0.4\lib\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\demo\.nuget\packages\reactiveui\18.3.1\lib\net6.0\ReactiveUI.dll
 C:\Users\demo\.nuget\packages\skiasharp\2.88.9\lib\net6.0\SkiaSharp.dll
+C:\Users\demo\.nuget\packages\splat\14.4.1\lib\net6.0\Splat.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Collections.Concurrent.dll
@@ -127,6 +134,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Numerics.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Numerics.Vectors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.ObjectModel.dll
+C:\Users\demo\.nuget\packages\system.reactive\5.0.0\lib\net5.0\System.Reactive.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Reflection.DispatchProxy.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Reflection.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.16\ref\net8.0\System.Reflection.Emit.dll

@@ -211,12 +211,17 @@ public partial class Db521Context : DbContext
             entity.ToTable("users");
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
+            entity.Property(e => e.RoleId).HasColumnName("role_id");
             entity.Property(e => e.UroleId).HasColumnName("urole_id");
             entity.Property(e => e.UserLogin).HasColumnName("user_login");
             entity.Property(e => e.UserName).HasColumnName("user_name");
             entity.Property(e => e.UserPassword).HasColumnName("user_password");
 
-            entity.HasOne(d => d.Urole).WithMany(p => p.Users)
+            entity.HasOne(d => d.Role).WithMany(p => p.UserRoles)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("users_role_id_fkey");
+
+            entity.HasOne(d => d.Urole).WithMany(p => p.UserUroles)
                 .HasForeignKey(d => d.UroleId)
                 .HasConstraintName("users_urole_id_fkey");
         });

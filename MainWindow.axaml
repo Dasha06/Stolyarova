@@ -1,9 +1,29 @@
 <Window xmlns="https://github.com/avaloniaui"
+        xmlns:controls="using:Captcha"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="StolyarovaDemo.MainWindow"
+        Background="LightGray"
         Title="StolyarovaDemo">
-    Welcome to Avalonia!
+    <DockPanel HorizontalAlignment="Center"
+               VerticalAlignment="Center" Margin="20">
+        <StackPanel 
+        Orientation="Vertical"
+        Spacing="10">
+            <TextBlock Text="Авторизация" FontSize="30"/>
+            <TextBox Watermark="Логин" Name="LoginTextBox"/>
+            <TextBox Watermark="пароль" Name="PasswordTextBox"/>
+            
+            <TextBlock Name="ErrorText"/>
+
+            <Button 
+            Click="Enter_Click" 
+            Content="Войти" 
+            HorizontalAlignment="Center"
+            FontSize="17"/>
+        </StackPanel>
+   </DockPanel>
+
 </Window>

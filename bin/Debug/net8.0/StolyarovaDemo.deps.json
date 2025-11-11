@@ -13,6 +13,8 @@
           "Avalonia.Diagnostics": "11.3.0",
           "Avalonia.Fonts.Inter": "11.3.0",
           "Avalonia.Themes.Fluent": "11.3.0",
+          "CaptchaForAvalonia": "1.1.1",
+          "MessageBox.Avalonia": "3.3.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
@@ -174,6 +176,19 @@
           }
         }
       },
+      "Avalonia.ReactiveUI/11.0.9": {
+        "dependencies": {
+          "Avalonia": "11.3.0",
+          "ReactiveUI": "18.3.1",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Avalonia.ReactiveUI.dll": {
+            "assemblyVersion": "11.0.9.0",
+            "fileVersion": "11.0.9.0"
+          }
+        }
+      },
       "Avalonia.Remote.Protocol/11.3.0": {
         "runtime": {
           "lib/net8.0/Avalonia.Remote.Protocol.dll": {
@@ -250,6 +265,43 @@
           }
         }
       },
+      "CaptchaForAvalonia/1.1.1": {
+        "dependencies": {
+          "Avalonia": "11.3.0",
+          "Avalonia.Fonts.Inter": "11.3.0",
+          "Avalonia.ReactiveUI": "11.0.9",
+          "Avalonia.Skia": "11.3.0",
+          "Avalonia.Themes.Fluent": "11.3.0"
+        },
+        "runtime": {
+          "lib/net8.0/Captcha.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "DialogHost.Avalonia/0.8.1": {
+        "dependencies": {
+          "Avalonia": "11.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "assemblyVersion": "0.8.1.0",
+            "fileVersion": "0.8.1.0"
+          }
+        }
+      },
+      "DynamicData/7.9.5": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.5.54039"
+          }
+        }
+      },
       "HarfBuzzSharp/7.3.0.3": {
         "dependencies": {
           "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.3",
@@ -323,6 +375,18 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MessageBox.Avalonia/3.3.0": {
+        "dependencies": {
+          "Avalonia": "11.3.0",
+          "DialogHost.Avalonia": "0.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -838,6 +902,18 @@
           }
         }
       },
+      "ReactiveUI/18.3.1": {
+        "dependencies": {
+          "DynamicData": "7.9.5",
+          "Splat": "14.4.1"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {
+            "assemblyVersion": "18.3.0.0",
+            "fileVersion": "18.3.1.49589"
+          }
+        }
+      },
       "SkiaSharp/2.88.9": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "2.88.9",
@@ -903,6 +979,14 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Splat/14.4.1": {
+        "runtime": {
+          "lib/net6.0/Splat.dll": {
+            "assemblyVersion": "14.4.0.0",
+            "fileVersion": "14.4.1.53869"
           }
         }
       },
@@ -988,6 +1072,14 @@
           "lib/net8.0/System.IO.Pipelines.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1125.51716"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
           }
         }
       },
@@ -1108,6 +1200,13 @@
       "path": "avalonia.native/11.3.0",
       "hashPath": "avalonia.native.11.3.0.nupkg.sha512"
     },
+    "Avalonia.ReactiveUI/11.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukIv5R140jlQICrSdf/LgLWlgS8N9vPEefbfpGhtDC+vKVRguBmgI1Y55Gwy92BYl/G40bM+9rsZ2E1gftbFWA==",
+      "path": "avalonia.reactiveui/11.0.9",
+      "hashPath": "avalonia.reactiveui.11.0.9.nupkg.sha512"
+    },
     "Avalonia.Remote.Protocol/11.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1150,6 +1249,27 @@
       "path": "avalonia.x11/11.3.0",
       "hashPath": "avalonia.x11.11.3.0.nupkg.sha512"
     },
+    "CaptchaForAvalonia/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DXpcuaE6aZF5TxqHXP3PitKw3fwinSgzvbwaQdF69I3IEw/1cwg/6YyCVAcX8Q7Y68HOxnL1pmZe+zU/eD0r7A==",
+      "path": "captchaforavalonia/1.1.1",
+      "hashPath": "captchaforavalonia.1.1.1.nupkg.sha512"
+    },
+    "DialogHost.Avalonia/0.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RLBOMqjJPgSmwe0i1pzX3Q7Pn0i4xE/E1b774krd4VyEkaorz1AYMdYQHyIfuhtQv5NntZyS0MuQbxJl/PhzBg==",
+      "path": "dialoghost.avalonia/0.8.1",
+      "hashPath": "dialoghost.avalonia.0.8.1.nupkg.sha512"
+    },
+    "DynamicData/7.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFwVha7o3qUtVYxco5p+7Urcztc/m1gmaEUxOG0i7LNe+vfCfyb0ECAsT2FLm3zOPHb0g8s9qVu5LfPKfRNVng==",
+      "path": "dynamicdata/7.9.5",
+      "hashPath": "dynamicdata.7.9.5.nupkg.sha512"
+    },
     "HarfBuzzSharp/7.3.0.3": {
       "type": "package",
       "serviceable": true,
@@ -1191,6 +1311,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MessageBox.Avalonia/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4btMa3Q5S/gZxqfi18tZYixnP9vy0KK/WyXYegQU+2/bfl5OFU56oS2bS7g5xNabXfRysl7Z7qoY/2ELLl4k5A==",
+      "path": "messagebox.avalonia/3.3.0",
+      "hashPath": "messagebox.avalonia.3.3.0.nupkg.sha512"
     },
     "MicroCom.Runtime/0.11.0": {
       "type": "package",
@@ -1388,6 +1515,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
     },
+    "ReactiveUI/18.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0tclGtjrRPfA2gbjiM7O3DeNmo6/TpDn7CMN6jgzDrbgrnysM7oEzjGEeXbtXaOxH6kEf6RiMKWobZoSgbBXhQ==",
+      "path": "reactiveui/18.3.1",
+      "hashPath": "reactiveui.18.3.1.nupkg.sha512"
+    },
     "SkiaSharp/2.88.9": {
       "type": "package",
       "serviceable": true,
@@ -1422,6 +1556,13 @@
       "sha512": "sha512-wb2kYgU7iy84nQLYZwMeJXixvK++GoIuECjU4ECaUKNuflyRlJKyiRhN1MAHswvlvzuvkrjRWlK0Za6+kYQK7w==",
       "path": "skiasharp.nativeassets.win32/2.88.9",
       "hashPath": "skiasharp.nativeassets.win32.2.88.9.nupkg.sha512"
+    },
+    "Splat/14.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z1Mncnzm9pNIaIbZ/EWH6x5ESnKsmAvu8HP4StBRw+yhz0lzE7LCbt22TNTPaFrYLYbYCbGQIc/61yuSnpLidg==",
+      "path": "splat/14.4.1",
+      "hashPath": "splat.14.4.1.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
@@ -1492,6 +1633,13 @@
       "sha512": "sha512-NfGnevAV0r2gqtZWxa/7uCm3MNRYz1o4WRHhFahgBq46LuG2eaLwXIlPgtgaRUvf9CCrGFnuzN47MOzJUH1HKg==",
       "path": "system.io.pipelines/9.0.11",
       "hashPath": "system.io.pipelines.9.0.11.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
     },
     "System.Reflection.Metadata/7.0.0": {
       "type": "package",

@@ -5,10 +5,10 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="StolyarovaDemo.AdminWindow"
         x:CompileBindings="False"
-        Title="AdminWindow">
+        Title="Рабочий стол Администратора">
   <DockPanel>
 	  <StackPanel>
-		  <ListBox ItemsSource="{Binding users}" Height="400">
+		  <ListBox ItemsSource="{Binding users}" Height="400" Width="600">
               <ListBox.ItemTemplate>
                   <DataTemplate>
                       <Grid ColumnDefinitions="*,*">

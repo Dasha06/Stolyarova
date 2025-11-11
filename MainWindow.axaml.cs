@@ -23,7 +23,7 @@ namespace StolyarovaDemo
             if (foundUser != null) 
             {
                 var correctPassword = foundUser.UserPassword == PasswordTextBox.Text;
-                if (correctPassword && foundUser.Role.RoleName == "Админ")
+                if (correctPassword && foundUser.RoleId == 1)
                 {
                     AdminWindow adminWindow = new AdminWindow();
                     adminWindow.Show();

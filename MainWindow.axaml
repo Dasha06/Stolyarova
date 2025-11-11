@@ -1,5 +1,4 @@
 <Window xmlns="https://github.com/avaloniaui"
-        xmlns:controls="using:Captcha"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -11,12 +10,10 @@
                VerticalAlignment="Center" Margin="20">
         <StackPanel 
         Orientation="Vertical"
-        Spacing="10">
+        Spacing="20">
             <TextBlock Text="Авторизация" FontSize="30"/>
             <TextBox Watermark="Логин" Name="LoginTextBox"/>
             <TextBox Watermark="пароль" Name="PasswordTextBox"/>
-            
-            <TextBlock Name="ErrorText"/>
 
             <Button 
             Click="Enter_Click" 

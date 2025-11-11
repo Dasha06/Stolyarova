@@ -13,11 +13,7 @@ public partial class User
 
     public string UserPassword { get; set; } = null!;
 
-    public int? UroleId { get; set; }
-
     public int? RoleId { get; set; }
 
     public virtual Role? Role { get; set; }
-
-    public virtual Role? Urole { get; set; }
 }
